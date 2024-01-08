@@ -1,5 +1,9 @@
+
 body {
     font-family: Arial, sans-serif;
+    width: 99%;
+    text-align: center;
+    height: 2500px;
 }
 
 #content {
@@ -14,22 +18,53 @@ body {
     cursor: pointer;
 }
 
+#description {
+    visibility: hidden;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    height: fit-content;
-    background-color: #fccabe;
+    overflow: hidden;
+    background-color: #b73131;
 }
 
 li {
-    display: inline-flex;
+    float: left;
 }
 
-a {
-    color: black;
+li a {
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    margin: 4pt;
-    padding: 4pt;
-    background-color: #ffdbdb;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #992828;
+}
+
+footer {
+    position: fixed;
+    display: block;
+    bottom: 0;
+    left: 0;
+    height: 50pt;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #b73131;
+
+}
+
+#footer-p {
+    color: antiquewhite;
+    float:right;
+    vertical-align: middle;
+    display: table-cell;
+    width: 100px;
+    height: 20px;
+    margin:20pt;
 }
