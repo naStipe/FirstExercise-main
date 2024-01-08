@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#actionButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 20pt;
+    background-color: darkgray;
+}
+
+li {
+    display: inline;
+    margin: 10pt 10pt 10pt 10pt;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
